@@ -10,7 +10,7 @@ module.exports = {
       black: "#000",
       inputColor: "#6C6D75",
       textColor: "#717171",
-
+      primaryBlue: "rgba(67, 133, 255, 1)",
       bgPrimary: "rgba(240, 244, 255, 1)",
       bgWhite: "#fff",
     },

@@ -1,7 +1,7 @@
 import React from "react"
 
 import Snack from "../../images/snack-logo.png"
-import Apple from "../../images/apple-logo.png"
+import Apple from "../../assets/images/icons/Apple.svg"
 
 function Footer() {
   return (
@@ -10,7 +10,7 @@ function Footer() {
       <p className="m-0 text-textColor font-normal text-xs">
         A <span className="underline">SideJar</span>&nbsp;product
       </p>
-      <img src={Apple} alt="logo" />
+      <img className="max-w-[124.62px] w-full" src={Apple} alt="logo" />
     </div>
   )
 }

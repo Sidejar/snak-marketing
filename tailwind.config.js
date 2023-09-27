@@ -11,7 +11,7 @@ module.exports = {
       inputColor: "#6C6D75",
       textColor: "#717171",
 
-      bgPrimary: "#F0F4FF",
+      bgPrimary: "rgba(240, 244, 255, 1)",
       bgWhite: "#fff",
     },
     extend: {},

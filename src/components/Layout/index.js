@@ -12,8 +12,8 @@ import Footer from "./footer"
 
 const Layout = ({ children }) => {
   return (
-    <div className="w-full bg-bgPrimary">
-      <div className="max-w-[1440px] mx-auto my-0 pt-[25px] px-6 md:px-[100px] lg:px-[180px] pb-10">
+    <div className="w-full">
+      <div className="">
         <Header />
         <div className="">
           <main>{children}</main>

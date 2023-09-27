@@ -5,16 +5,14 @@ import BannerImage from "../../images/banner-image.png"
 
 function Hero() {
   return (
-    <div className="flex gap-6 items-center">
+    <div className="max-w-[1440px] mx-auto my-0 flex justify-center gap-6 items-center">
       <div className="max-w-[435px] w-full">
-        <h2 className="text-black text-[62px] mb-6 leading-[60px] tracking-[-2px] font-bold">
-          Practice conversational language skills
-        </h2>
-        <p className="mb-[40px] text-black text-base font-normal">
+        <h2 className="h2">Practice conversational language skills</h2>
+        <p className={`p-large ${"mb-[40px] tracking-[0]"}`}>
           Snak is a language learning app that focuses on conversational skills
           with our AI chatbot: Snak!
         </p>
-        <img src={Apple} alt="logo" />
+        <img className="max-w-[180px] w-full" src={Apple} alt="logo" />
       </div>
       <img
         className="max-w-[620px] w-full object-cover"

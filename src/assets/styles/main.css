@@ -1,7 +1,36 @@
 /* src/styles/tailwind.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  @apply m-0 p-0  box-border;
+  font-family: "Inter", sans-serif;
+}
+/* typography */
+
+/* heading */
+.h2 {
+  @apply text-[48px] leading-[48px] text-black tracking-[-1.568px] md:text-[62px] md:leading-[60px] font-bold md:tracking-[-2px];
+}
+
+.h4 {
+  @apply text-[24px] md:text-[32px] text-black leading-[40px] font-bold tracking-[-0.5px];
+}
+/*paragraphs*/
+
+.p-small {
+  @apply text-[12px] leading-[16px] font-normal tracking-[-0.24px];
+}
+
+.p-medium {
+  @apply text-[14px] leading-[20px] font-medium tracking-[-0.24px];
+}
+
+.p-large {
+  @apply text-[16px] leading-[24px] font-normal tracking-[-0.44px];
+}

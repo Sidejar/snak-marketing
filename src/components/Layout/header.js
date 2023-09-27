@@ -4,9 +4,11 @@ import Snack from "../../images/snack-logo.png"
 import Apple from "../../images/apple-logo.png"
 
 const Header = () => (
-  <div className="flex justify-between items-center pb-10">
-    <img src={Snack} alt="logo" />
-    <img src={Apple} alt="logo" />
+  <div className="w-full bg-bgPrimary">
+    <div className="max-w-[1440px] mx-auto my-0 flex justify-between items-center pt-[25px] px-6 md:px-[100px] lg:px-[180px] pb-10">
+      <img src={Snack} alt="logo" />
+      <img src={Apple} alt="logo" />
+    </div>
   </div>
 )
 

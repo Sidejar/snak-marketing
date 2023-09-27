@@ -1,7 +1,10 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-const Header = () => (
+import FlagComponent from "./countries"
+
+import English from "../assets/images/icons/english.svg"
+const Header = ({ flag, countryName }) => (
   <header
     style={{
       margin: `0 auto`,
@@ -15,6 +18,7 @@ const Header = () => (
       {" "}
       Welcome to <b>Gatsby!</b>
     </h1>
+    <FlagComponent flag={English} countryName="English" />
   </header>
 )
 

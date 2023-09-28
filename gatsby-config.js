@@ -12,7 +12,7 @@ module.exports = {
     title: `Snak`,
     description: `Practice conversational language skills`,
     author: `@Snak`,
-    siteUrl: `https://snak.io`,
+    siteUrl: `https://snak-marketing.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-image`,

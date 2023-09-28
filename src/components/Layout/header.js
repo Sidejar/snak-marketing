@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import Snack from "../../assets/images/snack-logo.png"
+import Snack from "../../assets/images/snack-logo.svg"
 import Apple from "../../assets/images/Apple.svg"
 
 const Header = () => (

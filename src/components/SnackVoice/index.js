@@ -2,7 +2,7 @@ import React from "react"
 
 import Button from "../../utils/Button"
 
-import AudioMessage from "../../assets/images/audio-msg.png"
+import AudioMessage from "../../assets/images/audio-msg.svg"
 import Dot from "../../assets/images/orangeDot.svg"
 
 const Voice = ({

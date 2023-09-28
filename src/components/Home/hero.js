@@ -1,7 +1,7 @@
 import React from "react"
 
-import Apple from "../../assets/images/icons/Apple.svg"
-import BannerImage from "../../images/banner-image.png"
+import Apple from "../../assets/images/Apple.svg"
+import BannerImage from "../../assets/images/banner-image.png"
 
 function Hero() {
   return (

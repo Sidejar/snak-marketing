@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import Icon from "../../assets/images/icons/dropDownIcon.svg"
+import Icon from "../../assets/images/dropDownIcon.svg"
 
 const SelectDropdown = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

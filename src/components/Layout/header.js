@@ -1,7 +1,7 @@
 import * as React from "react"
 
-import Snack from "../../images/snack-logo.png"
-import Apple from "../../assets/images/icons/Apple.svg"
+import Snack from "../../assets/images/snack-logo.png"
+import Apple from "../../assets/images/Apple.svg"
 
 const Header = () => (
   <div className="w-full bg-bgPrimary">

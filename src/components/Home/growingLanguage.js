@@ -2,12 +2,12 @@ import React from "react"
 
 import Countries from "../Countries"
 
-import English from "../../assets/images/icons/english.svg"
-import Spanish from "../../assets/images/icons/spanish.svg"
-import German from "../../assets/images/icons/german.svg"
-import French from "../../assets/images/icons/french.svg"
-import Danish from "../../assets/images/icons/danish.svg"
-import Ukrainian from "../../assets/images/icons/ukrain.svg"
+import English from "../../assets/images/english.svg"
+import Spanish from "../../assets/images/spanish.svg"
+import German from "../../assets/images/german.svg"
+import French from "../../assets/images/french.svg"
+import Danish from "../../assets/images/danish.svg"
+import Ukrainian from "../../assets/images/ukrain.svg"
 
 const CountriesName = [
   {

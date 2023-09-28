@@ -1,12 +1,12 @@
 import React from "react"
 
 import Voice from "../SnackVoice"
-import DownArrowIcon from "../../assets/images/icons/downArrowIcon.svg"
-import TranslateIcon from "../../assets/images/icons/translateIcon.svg"
-import MicLogo from "../../assets/images/icons/mic.png"
-import Audio from "../../assets/images/icons/audio-wave.png"
-import Speaker from "../../assets/images/icons/volume.png"
-import Note from "../../assets/images/icons/note.png"
+import DownArrowIcon from "../../assets/images/downArrowIcon.svg"
+import TranslateIcon from "../../assets/images/translateIcon.svg"
+import MicLogo from "../../assets/images/mic.png"
+import Audio from "../../assets/images/audio-wave.png"
+import Speaker from "../../assets/images/volume.png"
+import Note from "../../assets/images/note.png"
 
 function SnackVoice() {
   return (

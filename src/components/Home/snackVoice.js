@@ -10,7 +10,7 @@ import Note from "../../assets/images/icons/note.png"
 
 function SnackVoice() {
   return (
-    <div className="my-[80px] md:my-[128px]">
+    <div className="my-[80px] md:my-[100px] lg:my-[128px]">
       {/*  */}
       <div className="flex items-center flex-col-reverse md:flex-row justify-between mb-12 md:mb-20 gap-8">
         <div className="max-w-full md:max-w-[360px] w-full flex flex-col items-start  gap-2 md:gap-6">

@@ -49,7 +49,7 @@ function GrowingLanguage() {
         Ukrainian, French and English.&nbsp;
         <span className="font-bold">More languages coming soon!</span>
       </p>
-      <div className="flex items-center justify-center flex-wrap lg:flex-nowrap gap-[22px] md:gap-6">
+      <div className="flex items-center justify-center flex-wrap xl:flex-nowrap gap-[22px] md:gap-6">
         {CountriesName.map((item, index) => (
           <div key={index} className="">
             <Countries name={item.name} flag={item.logo} />

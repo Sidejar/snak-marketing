@@ -15,7 +15,7 @@ const Button = props => {
   return (
     <button
       {...props}
-      className={`max-w-[136px] w-full flex items-center justify-around ${
+      className={` w-full flex items-center gap-[34px] ${
         noPadding ? "p-0" : "py-[12px] px-4"
       } ${
         bg ? "bg-primaryBlue" : "bg-transparent"
@@ -30,14 +30,20 @@ const Button = props => {
     >
       {icon && (
         <img
-          className={`${
-            recordButton ? "max-w-[41px] w-full sm:max-w-[fit-content]" : ""
-          }`}
+          className={`${recordButton ? " w-full max-w-[fit-content]" : ""}`}
           src={icon}
           alt="btn_icon"
         />
       )}
-      <p className={`p-small !font-semibold text-white`}>{text}</p>
+      <p
+        className={
+          icon
+            ? "p-small !font-semibold text-white"
+            : "p-large !font-semibold text-white"
+        }
+      >
+        {text}
+      </p>
     </button>
   )
 }

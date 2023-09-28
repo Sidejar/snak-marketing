@@ -12,7 +12,7 @@ function Footer() {
         src={Apple}
         alt="logo"
       />
-      <p className="hidden md:block m-0 text-textColor font-normal text-xs">
+      <p className="hidden md:block m-0 text-textColor font-normal text-xs ml-[23px]">
         A <span className="underline">SideJar</span>&nbsp;product
       </p>
       <img

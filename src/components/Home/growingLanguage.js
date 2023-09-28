@@ -39,7 +39,7 @@ const CountriesName = [
 function GrowingLanguage() {
   return (
     <div className="flex gap-8 md:gap-0 flex-col-reverse md:flex-col items-center">
-      <div className="">
+      <div className="md:text-center text-start">
         <h4 className={`h4 ${"mb-[8px] md:mb-[24px]"}`}>
           Growing language support!
         </h4>

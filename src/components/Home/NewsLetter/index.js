@@ -27,6 +27,7 @@ const NewsLetter = () => {
           disabled=""
           icon=""
           text="Subscribe"
+          buttonStyling="!w-[128px]"
         />
       </div>
     </div>

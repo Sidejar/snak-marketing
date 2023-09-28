@@ -21,33 +21,23 @@ function SnackVoice() {
           </p>
         </div>
         <Voice
-          className=""
           icon1={Audio}
-          icon2=""
           recordButton
-          onClick=""
-          type=""
-          disabled=""
           buttonIcon={MicLogo}
-          buttonText=""
+          buttonStyling="sm:max-w-[88px] w-full max-w-[41.5px]"
         />
       </div>
 
       {/*  */}
       <div className="flex items-center flex-col md:flex-row justify-between mb-12 md:mb-20 gap-8">
         <Voice
-          className=""
-          icon1=""
-          text1=". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          text1=". . . . . . . . . . . . . . . . . . . . . . . . . . "
           downArrowIcon={DownArrowIcon}
-          icon2=""
           audioMessage
           bg
-          onClick=""
-          type=""
-          disabled=""
           buttonIcon={Speaker}
           buttonText="Repeat"
+          buttonStyling="!w-[168px]"
         />
         <div className="max-w-full md:max-w-[360px] w-full flex flex-col items-start  gap-2 md:gap-6">
           <h4 className="h4">Repeat</h4>
@@ -67,36 +57,26 @@ function SnackVoice() {
           </p>
         </div>
         <Voice
-          className=""
-          icon1=""
-          text1=". . . . . . . . . . . . . . . . . . . . "
+          text1=". . . . . . . . . . . . . . . . . . . . . . ."
           downArrowIcon={DownArrowIcon}
-          icon2=""
           text2="Hvordan har du det?"
           bg
-          onClick=""
-          type=""
-          disabled=""
           buttonIcon={Note}
           buttonText="Transcribe"
+          buttonStyling="!w-[168px]"
         />
       </div>
 
       {/*  */}
       <div className="flex items-center flex-col md:flex-row justify-between gap-8">
         <Voice
-          className=""
-          icon1=""
           text1="Hvordan har du det?"
           downArrowIcon={DownArrowIcon}
-          icon2=""
           text2="How are you doing?"
           bg
-          onClick=""
-          type=""
-          disabled=""
           buttonIcon={TranslateIcon}
           buttonText="Translate"
+          buttonStyling="!w-[168px]"
         />
         <div className="max-w-full md:max-w-[360px] w-full flex flex-col items-start  gap-2 md:gap-6">
           <h4 className="h4">Translate</h4>

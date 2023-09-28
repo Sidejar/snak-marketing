@@ -15,7 +15,7 @@ function Index() {
         <SnackVoice />
         <GrowingLanguage />
       </div>
-      <div className="max-w-[1440px] mx-auto my-0 px-6 md:px-[60px] lg:px-[180px]">
+      <div className="max-w-[1440px] mx-auto my-0 px-0 md:px-[60px] lg:px-[180px]">
         <NewsLetter />
       </div>
     </div>

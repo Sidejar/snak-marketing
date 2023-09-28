@@ -1,6 +1,6 @@
 import React from "react"
 
-import Hero from "./Hero"
+import Hero from "./hero"
 import SnackVoice from "./snackVoice"
 import GrowingLanguage from "./growingLanguage"
 import NewsLetter from "./NewsLetter"

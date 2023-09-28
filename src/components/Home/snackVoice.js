@@ -3,8 +3,8 @@ import React from "react"
 import Voice from "../SnackVoice"
 import DownArrowIcon from "../../assets/images/icons/downArrowIcon.svg"
 import TranslateIcon from "../../assets/images/icons/translateIcon.svg"
-import Mic from "../../assets/images/icons/mic.png"
-import Audio from "../../assets/images/icons/Audio Wave.png"
+import MicLogo from "../../assets/images/icons/mic.png"
+import Audio from "../../assets/images/icons/audio-wave.png"
 import Speaker from "../../assets/images/icons/volume.png"
 import Note from "../../assets/images/icons/note.png"
 
@@ -28,7 +28,7 @@ function SnackVoice() {
           onClick=""
           type=""
           disabled=""
-          buttonIcon={Mic}
+          buttonIcon={MicLogo}
           buttonText=""
         />
       </div>

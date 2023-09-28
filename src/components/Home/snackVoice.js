@@ -38,10 +38,10 @@ function SnackVoice() {
         <Voice
           className=""
           icon1=""
-          text1=". . . . . . . . . . . . . . . . ."
+          text1=". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
           downArrowIcon={DownArrowIcon}
           icon2=""
-          text2="How are you doing?"
+          audioMessage
           bg
           onClick=""
           type=""

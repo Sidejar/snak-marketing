@@ -1,6 +1,9 @@
 import React from "react"
-import Dot from "../../assets/images/orangeDot.svg"
+
 import Button from "../../utils/Button"
+
+import AudioMessage from "../../assets/images/audio-msg.png"
+import Dot from "../../assets/images/orangeDot.svg"
 
 const Voice = ({
   className,
@@ -12,6 +15,7 @@ const Voice = ({
   buttonStyling,
   cta,
   recordButton,
+  audioMessage,
   type,
   disabled,
   bg,
@@ -67,6 +71,10 @@ const Voice = ({
               icon={buttonIcon}
               text={buttonText}
             />
+          ) : audioMessage ? (
+            <p className="p-medium py-3 px-4 rounded-[22px] bg-bgGrey1">
+              <img src={AudioMessage} alt="logo" />
+            </p>
           ) : (
             <p className="p-medium py-3 px-4 rounded-[22px] bg-bgGrey1">
               {text2}

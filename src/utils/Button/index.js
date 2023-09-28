@@ -1,7 +1,7 @@
 import React from "react"
 
 const Button = props => {
-  const { className, cta, type, disabled, icon, text, bg } = props
+  const { className, cta, type, disabled, icon, textStyling, text, bg } = props
   return (
     <button
       {...props}
@@ -17,7 +17,9 @@ const Button = props => {
       disabled={disabled}
     >
       {icon && <img src={icon} alt="btn_icon" />}
-      <p className={`p-small !font-semibold text-white`}>{text}</p>
+      <p className={`p-small !font-semibold text-white ${textStyling}`}>
+        {text}
+      </p>
     </button>
   )
 }

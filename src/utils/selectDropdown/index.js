@@ -17,7 +17,7 @@ const SelectDropdown = () => {
   const options = ["English", "Spanish", "French", "German"]
 
   return (
-    <div className="relative inline-block text-left w-full p-large !leading-[22px]">
+    <div className="relative inline-block text-left w-full p-large !font-medium !leading-[22px]">
       <div>
         <button
           type="button"

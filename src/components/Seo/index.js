@@ -28,15 +28,24 @@ function Seo({ description, title, children }) {
 
   return (
     <>
-      <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
-      <meta name="description" content={metaDescription} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={metaDescription} />
+      <title>Snak App</title>
+      <meta
+        name="description"
+        content="Practice conversational language skills"
+      />
+      <meta property="og:title" content="Sank Marketing" />
+      <meta
+        property="og:description"
+        content="Practice conversational language skills"
+      />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={metaDescription} />
+      <meta name="twitter:title" content="Snak Marketing" />
+      <meta
+        name="twitter:description"
+        content="Practice conversational language skills"
+      />
       {children}
     </>
   )

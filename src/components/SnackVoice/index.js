@@ -26,7 +26,7 @@ const Voice = ({
         className={`w-full md:w-auto rounded-[22px] bg-white flex flex-col items-center gap-[22px] ${
           btn
             ? "pt-[15px] md:pt-6 pb-[29px] md:pb-[46px] px-[10px] md:px-[16px]"
-            : "py-12 px-5 md:px-[40px] lg:px-[50px] xl:px-[70px]"
+            : "py-[33px] md:py-12 px-5 md:px-[40px] lg:px-[50px] xl:px-[70px]"
         }`}
       >
         <span>

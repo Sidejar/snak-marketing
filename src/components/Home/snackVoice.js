@@ -83,7 +83,7 @@ function SnackVoice() {
       </div>
 
       {/*  */}
-      <div className="flex items-center flex-col md:flex-row justify-between mb-12 md:mb-20 gap-8">
+      <div className="flex items-center flex-col md:flex-row justify-between gap-8">
         <Voice
           className=""
           icon1=""

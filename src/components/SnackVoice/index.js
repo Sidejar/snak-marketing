@@ -11,7 +11,7 @@ const Voice = ({
   text2,
   buttonStyling,
   cta,
-  btn,
+  recordButton,
   type,
   disabled,
   bg,
@@ -21,19 +21,19 @@ const Voice = ({
   return (
     <div
       className={`max-w-full md:max-w-[527px] w-full ${
-        btn
+        recordButton
           ? "py-[52px] md:py-[55px] lg:py-[76px] px-[49px] md:px-[55px] lg:px-[76px]"
           : "py-[48px] md:py-[34px] lg:py-[41px] px-5 md:px-[55px] lg:px-[76px]"
       } bg-bgPrimary rounded-[20px] flex flex-col items-center gap-6 ${className}`}
     >
       <div
         className={`w-full md:w-auto rounded-[22px] bg-white flex flex-col items-center gap-[22px] ${
-          btn
+          recordButton
             ? "pt-[15px] md:pt-6 pb-[29px] md:pb-[46px] px-[10px] md:px-[16px]"
             : "py-[33px] md:py-12 px-5 md:px-[40px] lg:px-[50px] xl:px-[70px]"
         }`}
       >
-        {btn ? (
+        {recordButton ? (
           <div className="flex items-center justify-between p-medium !leading-[18px] !tracking-[-0.44px] w-full">
             <div className="flex items-center gap-[6px]">
               <img src={Dot} alt="dot_img" />
@@ -48,7 +48,7 @@ const Voice = ({
           {icon1 ? (
             <img src={icon1} alt="logo"></img>
           ) : (
-            <p className="p-medium !font-normal py-3 px-4 rounded-[22px] bg-bgPrimary">
+            <p className="p-medium !font-normal py-3 px-4 rounded-[22px] bg-bgGrey1">
               {text1}
             </p>
           )}
@@ -56,7 +56,7 @@ const Voice = ({
         {downArrowIcon && <img src={downArrowIcon} alt="downArrowIcon" />}
         <span>
           {icon2 && <span>{icon2}</span>}
-          {btn ? (
+          {recordButton ? (
             <Button
               noPadding
               bg={bg}
@@ -68,13 +68,13 @@ const Voice = ({
               text={buttonText}
             />
           ) : (
-            <p className="p-medium  py-3 px-4 rounded-[22px] bg-bgPrimary">
+            <p className="p-medium py-3 px-4 rounded-[22px] bg-bgGrey1">
               {text2}
             </p>
           )}
         </span>
       </div>
-      {btn ? null : (
+      {recordButton ? null : (
         <Button
           bg={bg}
           className={buttonStyling}

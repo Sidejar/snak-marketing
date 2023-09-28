@@ -24,7 +24,7 @@ function SnackVoice() {
           className=""
           icon1={Audio}
           icon2=""
-          btn
+          recordButton
           onClick=""
           type=""
           disabled=""

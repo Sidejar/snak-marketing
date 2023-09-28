@@ -38,18 +38,18 @@ const CountriesName = [
 
 function GrowingLanguage() {
   return (
-    <div className="flex flex-col items-center">
-      <h4 className={`h4 ${"mb-[8px] md:mb-[24px]"}`}>
-        Growing language support!
-      </h4>
-      <p
-        className={`p-large ${"max-w-full md:max-w-[528px] w-full mb-[80px] md:mb-16"}`}
-      >
-        Right now Snack supports 6 languages: Spanish, Danish, German,
-        Ukrainian, French and English.&nbsp;
-        <span className="font-bold">More languages coming soon!</span>
-      </p>
-      <div className="flex items-center justify-center flex-wrap xl:flex-nowrap gap-[22px] md:gap-6">
+    <div className="flex gap-8 md:gap-0 flex-col-reverse md:flex-col items-center">
+      <div className="">
+        <h4 className={`h4 ${"mb-[8px] md:mb-[24px]"}`}>
+          Growing language support!
+        </h4>
+        <p className={`p-large ${"max-w-full md:max-w-[528px] w-full"}`}>
+          Right now Snack supports 6 languages: Spanish, Danish, German,
+          Ukrainian, French and English.&nbsp;
+          <span className="font-bold">More languages coming soon!</span>
+        </p>
+      </div>
+      <div className="flex items-center justify-center flex-wrap xl:flex-nowrap flex-shrink-0 sm:flex-shrink-[inherit] mt-0 md:mt-16 gap-[22px] md:gap-6">
         {CountriesName.map((item, index) => (
           <div key={index} className="">
             <Countries name={item.name} flag={item.logo} />

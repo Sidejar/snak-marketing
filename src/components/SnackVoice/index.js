@@ -19,9 +19,9 @@ const Voice = ({
 }) => {
   return (
     <div
-      className={`max-w-full md:max-w-[527px] w-full pr-10 pb-[76px] pl-[41px] pt-[76px] bg-bgPrimary rounded-[20px] flex flex-col items-center gap-6 ${className}`}
+      className={`max-w-full md:max-w-[527px] w-full py-[48px] md:py-[55px] lg:py-[76px] px-5 md:px-[34px] lg:px-[41px] pt-[76px] bg-bgPrimary rounded-[20px] flex flex-col items-center gap-6 ${className}`}
     >
-      <div className="rounded-[22px] bg-white py-12 px-5 md:px-[40px] lg:px-[50px] xl:px-[108px] flex flex-col items-center gap-[22px]">
+      <div className="w-full md:w-auto rounded-[22px] bg-white py-12 px-5 md:px-[40px] lg:px-[50px] xl:px-[108px] flex flex-col items-center gap-[22px]">
         <span>
           {icon1 ? (
             <img src={icon1} alt="logo"></img>

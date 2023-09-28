@@ -7,8 +7,8 @@ function Hero() {
   return (
     <div className="max-w-[1440px] mx-auto my-0 flex flex-col lg:flex-row justify-center gap-6 items-center">
       <div className="max-w-full lg:max-w-[435px] w-full">
-        <h2 className="h2">Practice conversational language skills</h2>
-        <p className={`p-large ${"mb-[40px] tracking-[0]"}`}>
+        <h2 className="h2-medium">Practice conversational language skills</h2>
+        <p className={`p-large ${"mb-8 md:mb-[40px] tracking-[0]"}`}>
           Snak is a language learning app that focuses on conversational skills
           with our AI chatbot: Snak!
         </p>

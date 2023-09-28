@@ -1,6 +1,6 @@
 import React from "react"
 
-import DropDown from "../../../utils/DropDown"
+import DropDown from "../../../utils/selectDropdown"
 import Button from "../../../utils/Button"
 
 const NewsLetter = () => {

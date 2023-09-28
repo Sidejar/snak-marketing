@@ -1,7 +1,17 @@
 import React from "react"
 
 const Button = props => {
-  const { className, cta, type, disabled, icon, text, bg, noPadding } = props
+  const {
+    className,
+    cta,
+    type,
+    disabled,
+    icon,
+    text,
+    bg,
+    noPadding,
+    recordButton,
+  } = props
   return (
     <button
       {...props}
@@ -18,7 +28,15 @@ const Button = props => {
       type={type}
       disabled={disabled}
     >
-      {icon && <img src={icon} alt="btn_icon" />}
+      {icon && (
+        <img
+          className={`${
+            recordButton ? "max-w-[41px] w-full sm:max-w-[fit-content]" : ""
+          }`}
+          src={icon}
+          alt="btn_icon"
+        />
+      )}
       <p className={`p-small !font-semibold text-white`}>{text}</p>
     </button>
   )

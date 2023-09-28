@@ -62,6 +62,7 @@ const Voice = ({
           {icon2 && <span>{icon2}</span>}
           {recordButton ? (
             <Button
+              recordButton={recordButton}
               noPadding
               bg={bg}
               className={buttonStyling}

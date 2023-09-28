@@ -13,6 +13,7 @@ module.exports = {
       primaryBlue: "rgba(67, 133, 255, 1)",
       bgPrimary: "rgba(240, 244, 255, 1)",
       bgWhite: "#fff",
+      bgGrey: "rgba(232, 235, 237, 1)",
     },
     extend: {},
   },

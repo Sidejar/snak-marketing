@@ -7,7 +7,7 @@ const NewsLetter = () => {
   return (
     <div className="max-w-[1440px] mx-auto my-0 rounded-[20px] py-16 px-6 bg-bgPrimary flex flex-col items-center gap-8">
       <div>
-        <h4 className="h4 mb-4">Join our newsletter</h4>
+        <h4 className={`h4 ${"mb-4 text-center"}`}>Join our newsletter</h4>
         <p className={`p-large ${"text-center !tracking-normal"}`}>
           Get daily emails with word of the day!
         </p>

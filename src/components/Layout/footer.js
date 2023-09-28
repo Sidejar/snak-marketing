@@ -5,7 +5,7 @@ import Apple from "../../assets/images/icons/Apple.svg"
 
 function Footer() {
   return (
-    <div className="max-w-[1440px] mx-auto mt-[50px] mb-0 flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center px-6 md:px-[60px] lg:px-[180px] pb-[68px] md:pb-[100px] lg:pb-[125px]">
+    <div className="max-w-[1440px] mx-auto mt-[50px] mb-0 flex flex-wrap md:flex-nowrap justify-between items-center px-6 md:px-[60px] lg:px-[180px] pb-[68px] md:pb-[100px] lg:pb-[125px]">
       <img src={Snack} alt="logo" />
       <img
         className="block md:hidden max-w-[124.62px] w-full"

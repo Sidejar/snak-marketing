@@ -21,7 +21,7 @@ const SelectDropdown = () => {
       <div>
         <button
           type="button"
-          className="inline-flex w-full justify-between items-center rounded-[14px] bg-white px-[14px] py-[13px] focus:outline-none focus:ring-0"
+          className="inline-flex border border-solid border-bgGrey w-full justify-between items-center rounded-[14px] bg-white px-[14px] py-[13px] focus:outline-none focus:ring-0"
           id="menu-button"
           aria-expanded={isMenuOpen}
           aria-haspopup="true"

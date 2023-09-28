@@ -17,8 +17,8 @@ const Button = props => {
       {...props}
       className={` w-full flex items-center gap-[34px] ${
         noPadding ? "p-0" : "py-[12px] px-4"
-      } ${
-        bg ? "bg-primaryBlue" : "bg-transparent"
+      } ${bg ? "bg-primaryBlue" : "bg-transparent"} ${
+        disabled && "opacity-30"
       } rounded-[42px] ${className}`}
       onClick={e => {
         if (cta) {
@@ -26,7 +26,7 @@ const Button = props => {
         }
       }}
       type={type}
-      disabled={disabled}
+      disabled={disabled ? true : false}
     >
       {icon && (
         <img

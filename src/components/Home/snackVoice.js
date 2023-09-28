@@ -15,7 +15,7 @@ function SnackVoice() {
       <div className="flex items-center flex-col-reverse md:flex-row justify-between mb-12 md:mb-20 gap-8">
         <div className="max-w-full md:max-w-[360px] w-full flex flex-col items-start  gap-2 md:gap-6">
           <h4 className="h4">It’s time to start talking</h4>
-          <p className={`p-large ${"text-left"}`}>
+          <p className={`p-large ${"text-left "}`}>
             Engage in conversations with Snak to see if you can understand it,
             and even more importantly, it can understand you!
           </p>

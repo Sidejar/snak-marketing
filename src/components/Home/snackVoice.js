@@ -24,7 +24,7 @@ function SnackVoice() {
           className=""
           icon1={Audio}
           icon2=""
-          text2="How are you doing?"
+          btn
           onClick=""
           type=""
           disabled=""

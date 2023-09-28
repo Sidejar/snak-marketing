@@ -20,7 +20,7 @@ const NewsLetter = () => {
           className="rounded-[14px] bg-white p-[14px] w-full focus:outline-none focus:ring-0"
         />
         <Button
-          className="!py-[13px] !rounded-[14px] px-[27px] max-w-full md:max-w-[128px] w-full flex justify-center"
+          className=" !py-[13px] !rounded-[14px] px-[27px] max-w-full md:max-w-[128px] w-full flex justify-center"
           cta={() => {}}
           type=""
           bg

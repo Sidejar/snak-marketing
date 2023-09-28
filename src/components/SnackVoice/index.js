@@ -1,5 +1,5 @@
 import React from "react"
-
+import Dot from "../../assets/images/orangeDot.svg"
 import Button from "../../utils/Button"
 
 const Voice = ({
@@ -33,6 +33,17 @@ const Voice = ({
             : "py-[33px] md:py-12 px-5 md:px-[40px] lg:px-[50px] xl:px-[70px]"
         }`}
       >
+        {btn ? (
+          <div className="flex items-center justify-between p-medium !leading-[18px] !tracking-[-0.44px] w-full">
+            <div className="flex items-center gap-[6px]">
+              <img src={Dot} alt="dot_img" />
+              <p className="">Recording</p>
+            </div>
+            <p>00:01</p>
+          </div>
+        ) : (
+          ""
+        )}
         <span>
           {icon1 ? (
             <img src={icon1} alt="logo"></img>

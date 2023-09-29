@@ -7,6 +7,7 @@ import MicLogo from "../../assets/images/mic.svg"
 import Audio from "../../assets/images/audio-wave.svg"
 import Speaker from "../../assets/images/volume.svg"
 import Note from "../../assets/images/note.svg"
+import HiddenMsgImg from "../../assets/images/hidden-msg.svg"
 
 function SnackVoice() {
   return (
@@ -31,7 +32,7 @@ function SnackVoice() {
       {/*  */}
       <div className="flex items-center flex-col md:flex-row justify-between mb-12 md:mb-20 gap-8">
         <Voice
-          text1=". . . . . . . . . . . . . . . . . . . . . . . . . . "
+          hiddenMsg={HiddenMsgImg}
           downArrowIcon={DownArrowIcon}
           audioMessage
           bg
@@ -57,7 +58,7 @@ function SnackVoice() {
           </p>
         </div>
         <Voice
-          text1=". . . . . . . . . . . . . . . . . . . . . . ."
+          hiddenMsg={HiddenMsgImg}
           downArrowIcon={DownArrowIcon}
           text2="Hvordan har du det?"
           bg

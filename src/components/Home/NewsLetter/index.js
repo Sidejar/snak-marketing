@@ -100,7 +100,7 @@ const NewsLetter = () => {
                 cta={() => {}}
                 type="submit"
                 bg
-                disabled={isSubmitting ? true : false}
+                disabled={isSubmitting}
                 icon=""
                 text="Subscribe"
                 buttonStyling="!w-[128px]"

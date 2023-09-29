@@ -8,6 +8,7 @@ import Dot from "../../assets/images/orangeDot.svg"
 const Voice = ({
   className,
   icon1,
+  hiddenMsg,
   text1,
   downArrowIcon,
   icon2,
@@ -53,7 +54,7 @@ const Voice = ({
             <img src={icon1} alt="logo"></img>
           ) : (
             <p className="p-medium !font-normal py-3 px-4 rounded-[22px] bg-bgGrey1">
-              {text1}
+              {hiddenMsg ? <img src={hiddenMsg} alt="audio msg" /> : text1}
             </p>
           )}
         </span>

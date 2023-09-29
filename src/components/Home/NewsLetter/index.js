@@ -4,7 +4,7 @@ import { Formik, Field, Form, ErrorMessage } from "formik"
 import * as Yup from "yup"
 
 import Button from "../../../utils/Button"
-// import Icon from "../../../assets/images/dropDownIcon.svg"
+import Icon from "../../../assets/images/dropDownIcon.svg"
 
 const NewsLetter = () => {
   const options = [
@@ -55,23 +55,19 @@ const NewsLetter = () => {
                     as="select"
                     id="selectOption"
                     name="selectOption"
-                    className="cursor-pointer inline-flex border border-solid border-bgGrey w-full justify-between items-center rounded-[14px] bg-white px-[14px] py-[13px] focus:outline-none focus:ring-0"
+                    className="cursor-pointer inline-flex border border-solid border-bgGrey w-full justify-between items-center rounded-[14px] bg-white px-[14px] py-[13px] focus:outline-none focus:ring-0 custom-dropdown"
                   >
                     <option
                       value=""
                       disabled
-                      className="absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none px-[14px] py-[13px]"
+                      className="absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                     >
                       Select language
-                      {/* <img src={Icon} alt="btn_icon" className="mr-2" /> */}
+                      <img src={Icon} alt="btn_icon" />
                     </option>
                     {options.map(option => (
-                      <option
-                        key={option.value}
-                        value={option.value}
-                        className="hover:!bg-bgPrimary !px-[14px] !py-[20px]"
-                      >
-                        <p className="cursor-pointer absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <option key={option.value} value={option.value}>
+                        <p className="px-4 py-2 hover:bg-bgPrimary cursor-pointer absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                           {option.label}
                         </p>
                       </option>

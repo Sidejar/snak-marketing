@@ -37,3 +37,16 @@
 .p-large {
   @apply text-[16px] leading-[24px] font-normal tracking-[-0.44px];
 }
+
+/* DropDown */
+
+.custom-dropdown {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../images/dropDownIcon.svg"); /* Add your custom arrow icon here */
+  background-position: calc(100% - 14px) center;
+  background-repeat: no-repeat;
+  /* position: absolute;
+  right: 10px; */
+}

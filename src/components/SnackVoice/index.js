@@ -39,12 +39,16 @@ const Voice = ({
         }`}
       >
         {recordButton ? (
-          <div className="flex items-center justify-between p-medium !leading-[18px] !tracking-[-0.44px] w-full">
+          <div className="flex items-center justify-between w-full">
             <div className="flex items-center gap-[6px]">
               <img src={Dot} alt="dot_img" />
-              <p className="">Recording</p>
+              <p className="p-medium !tracking-[-0.44px] !leading-[18px] text-primary">
+                Recording
+              </p>
             </div>
-            <p>00:01</p>
+            <p className="p-medium !tracking-[-0.44px] !leading-[18px] text-primary">
+              00:01
+            </p>
           </div>
         ) : (
           ""

@@ -4,7 +4,6 @@ import { Formik, Field, Form, ErrorMessage } from "formik"
 import * as Yup from "yup"
 
 import Button from "../../../utils/Button"
-import Icon from "../../../assets/images/dropDownIcon.svg"
 
 const NewsLetter = () => {
   const options = [
@@ -62,15 +61,14 @@ const NewsLetter = () => {
                     className="absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none px-[14px] py-[13px]"
                   >
                     Select language
-                    {/* <img src={Icon} alt="btn_icon" className="mr-2" /> */}
                   </option>
                   {options.map(option => (
                     <option
-                      className="hover:!bg-bgPrimary !px-[14px] !py-[20px]"
                       key={option.value}
                       value={option.value}
+                      className="selectDropdown"
                     >
-                      <p className="px-4 py-2 hover:bg-bgPrimary cursor-pointer absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <p className="cursor-pointer absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                         {option.label}
                       </p>
                     </option>

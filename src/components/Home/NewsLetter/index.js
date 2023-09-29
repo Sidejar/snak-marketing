@@ -50,35 +50,37 @@ const NewsLetter = () => {
           <Form className="w-full flex justify-center">
             <div className="flex flex-col items-center gap-4 md:max-w-[343px] w-full">
               <div className="w-full relative inline-block text-left p-large !font-medium !leading-[22px]">
-                <div className="relative inline-block text-left w-full p-large !font-medium !leading-[22px]">
-                  <Field
-                    as="select"
-                    id="selectOption"
-                    name="selectOption"
-                    className="cursor-pointer inline-flex border border-solid border-bgGrey w-full justify-between items-center rounded-[14px] bg-white px-[14px] py-[13px] focus:outline-none focus:ring-0 custom-dropdown"
+                <Field
+                  as="select"
+                  id="selectOption"
+                  name="selectOption"
+                  className="cursor-pointer inline-flex border border-solid border-bgGrey w-full justify-between items-center rounded-[14px] bg-white px-[14px] py-[13px] focus:outline-none focus:ring-0 custom-dropdown"
+                >
+                  <option
+                    value=""
+                    disabled
+                    className="absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none px-[14px] py-[13px]"
                   >
+                    Select language
+                    {/* <img src={Icon} alt="btn_icon" className="mr-2" /> */}
+                  </option>
+                  {options.map(option => (
                     <option
-                      value=""
-                      disabled
-                      className="absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                      className="hover:!bg-bgPrimary !px-[14px] !py-[20px]"
+                      key={option.value}
+                      value={option.value}
                     >
-                      Select language
-                      <img src={Icon} alt="btn_icon" />
+                      <p className="px-4 py-2 hover:bg-bgPrimary cursor-pointer absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                        {option.label}
+                      </p>
                     </option>
-                    {options.map(option => (
-                      <option key={option.value} value={option.value}>
-                        <p className="px-4 py-2 hover:bg-bgPrimary cursor-pointer absolute right-0 z-10 w-full rounded-[14px] bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                          {option.label}
-                        </p>
-                      </option>
-                    ))}
-                  </Field>
-                  <ErrorMessage
-                    className="text-xs text-[#FF0000] pt-1 pl-2"
-                    name="selectOption"
-                    component="div"
-                  />
-                </div>
+                  ))}
+                </Field>
+                <ErrorMessage
+                  className="text-xs text-[#FF0000] pt-1 pl-2"
+                  name="selectOption"
+                  component="div"
+                />
               </div>
 
               <div className="w-full">

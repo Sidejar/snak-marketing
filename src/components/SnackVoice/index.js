@@ -42,9 +42,13 @@ const Voice = ({
           <div className="flex items-center justify-between p-medium !leading-[18px] !tracking-[-0.44px] w-full">
             <div className="flex items-center gap-[6px]">
               <img src={Dot} alt="dot_img" />
-              <p className="">Recording</p>
+              <p className="text-primary text-sm font-medium tracking-[-0.44px]">
+                Recording ..
+              </p>
             </div>
-            <p>00:01</p>
+            <p className="text-grayColor text-sm font-medium tracking-[-0.44px]">
+              00:01
+            </p>
           </div>
         ) : (
           ""
